@@ -58,7 +58,10 @@ export default function Home() {
                 return (
                   <li>
                     <a href={`https://github.com/${itemAtual}`} key={itemAtual}>
-                      <img src={`https://github.com/${itemAtual}.png`} />
+                      {/* <img src={`https://github.com/${itemAtual}.png`} /> */}
+                      <img
+                        src={`https://picsum.photos/seed/${Math.random()}/200/300`}
+                      />
                       <span>{itemAtual}</span>
                     </a>
                   </li>
